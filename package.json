@@ -1,0 +1,26 @@
+{
+  "name": "geoip",
+  "version": "1.0.0",
+  "description": "This script uses ipregistry.co to determine the country of the visitor based on their IP address.",
+  "main": "geoip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benard-Kiplangat/GeoIP.git"
+  },
+  "keywords": [
+    "geoip",
+    "client",
+    "visitors",
+    "ip",
+    "country"
+  ],
+  "author": "Benard Kiplangat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benard-Kiplangat/GeoIP/issues"
+  },
+  "homepage": "https://github.com/Benard-Kiplangat/GeoIP#readme"
+}
