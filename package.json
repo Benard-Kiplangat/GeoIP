@@ -22,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/Benard-Kiplangat/GeoIP/issues"
   },
-  "homepage": "https://github.com/Benard-Kiplangat/GeoIP#readme"
+  "homepage": "https://github.com/Benard-Kiplangat/GeoIP#readme",
+  "dependencies": {
+    "@maxmind/geoip2-node": "^6.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.99.8",
+    "webpack-cli": "^6.0.1"
+  }
 }

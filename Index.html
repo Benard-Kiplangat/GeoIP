@@ -7,8 +7,13 @@
 </head>
 <body>
     <h1>GeoIP Script to detect visitor's country from IP</h1>
+    <h2>Using ipregistry.co's API</h2>
     <p>This script uses the ipregistry.co's api to determine the country of the visitor based on their IP address.</p>
     <h3>Visitor's country: <span style="color: green" id="country"></span></h3>
-    <script src="./geoip.js"></script>
+    <h2>Using MaxMind GeoIP2 Database</h2>
+    <p>This script uses the MaxMinds's GeoIP2 databases to determine the country of the visitor based on their IP address.</p>
+    <h3>Visitor's country: <span style="color: green" id="country2"></span></h3>
+    <script src="./dist/geoip.js"></script>
+    <script type="module" src="dist/bundle.js"></script>
 </body>
 </html>
